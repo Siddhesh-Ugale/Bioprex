@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: radial-gradient(at right, #0a2e48, #091827);
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav img {
+  height: 8vh;
+  margin-top: 2vh;
+}
+
+.hero {
+  width: 100%;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero .cont img {
+  width: 30rem;
+  margin-right: 12rem;
+  margin-left: 5rem;
+}
+
+.hero .anim {
+  margin-right: 5rem;
+}
+
+.hero .anim .snow-sec {
+  z-index: -999;
+}
+
+.hero .anim svg {
+  width: 600px;
+  height: auto;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+#tsparticles {
+  width: 100%;
+  height: 70vh;
+  background-image: url("");
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=main.css.map */
